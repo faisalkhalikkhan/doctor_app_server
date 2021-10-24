@@ -9,7 +9,7 @@ const app = express();
 app.use(cors())
 app.use(express.json({ limit: "50mb", extended: true }))
 app.use(express.urlencoded({ limit: "50mb", extended: true }))
-const CONNECTION_URL = 'mongodb+srv://user123:user123@cluster0.nvohh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const CONNECTION_URL = 'Enter your connection URL'
 
 cloudinary.config({
     cloud_name: 'ddjlbktoe',
