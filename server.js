@@ -12,9 +12,9 @@ app.use(express.urlencoded({ limit: "50mb", extended: true }))
 const CONNECTION_URL = 'Enter your connection URL'
 
 cloudinary.config({
-    cloud_name: 'ddjlbktoe',
-    api_key: '945859198772555',
-    api_secret: 'a-0CiJ55mSDVo9XnbovDvqtqzro'
+    cloud_name: 'Enter Your data',
+    api_key: 'Enter your API key',
+    api_secret: 'Enter Your secret'
 });
 
 const adminRoutes = require('./admin/route')
